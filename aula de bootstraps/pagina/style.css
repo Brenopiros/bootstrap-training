@@ -1,0 +1,112 @@
+@media (max-width: 1920px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 20px; /* Ajusta o preenchimento em telas menores */
+    }
+}
+
+body {
+  width: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #36363a;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+
+header {
+background-color: #36363a;
+padding: 1.5% 18%;
+
+}
+
+nav{
+background-color: #36363a;
+padding: 8px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+font-size: 18px;
+transition: color 0.3s ease;  /* Animação suave para troca de cor */
+
+}
+body a {
+color: white;
+text-decoration: none;
+font-size: 18px;
+transition: color 0.3s ease;  /* Animação suave para troca de cor */
+}
+
+.nav-title {
+color: rgb(207, 204, 222);
+margin-top:-1.5% ;
+margin-right: 40%;
+font-size: 2.5rem;    
+
+}
+
+.nav-menu{
+font-size: 120%;
+
+}
+
+.nav-menu { 
+display: flex;
+justify-content:flex-end;
+list-style: none;
+margin: 0;
+padding: 0;
+
+}
+
+.nav-menu li {
+margin: 0 3%;
+}
+
+.nav-menu a{
+text-decoration: none;
+}
+
+a{
+color: rgb(230, 228, 228);
+}
+
+.row {
+  background-image: url(4K-Beautiful-Desktop-Wallpaper-Colorful-Nature-Sunset-Landscape-Free-Download-2048x1152.jpg);
+  height: auto;
+  width: auto;
+}
+
+.element{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  color: white;
+  padding: 10rem;
+  border: 1px none;
+  display: table;
+}
+
+.carrossel{
+  color: white;
+  background-color: #464647;
+  text-align: center;
+  
+}
+
+#carouselExampleIndicators{
+  max-width: 80%;
+  margin: auto;
+
+}
+
+
